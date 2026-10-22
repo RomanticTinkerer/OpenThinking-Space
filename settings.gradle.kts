@@ -16,3 +16,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "OpenThinkingSpace"
 include(":recorder")
+include(":gesture")
+include(":cropper")
+include(":editor")

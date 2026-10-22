@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Strings below are copied from ReFra (Apache-2.0); the vendored markup UI references them by name. -->
+    <string name="editor_add_or_select_text">Add or select a text to change color</string>
+    <string name="editor_blur_faces">Blur faces</string>
+    <string name="editor_brush_size">Size</string>
+    <string name="editor_brush_strength">Strength</string>
+    <string name="editor_done">Done</string>
+    <string name="editor_highlighter">Highlighter</string>
+    <string name="editor_pen">Pen</string>
+    <string name="editor_remove">Remove</string>
+    <string name="editor_text">Text</string>
+    <string name="editor_type_something">Type something</string>
+    <string name="editor_undo">Undo</string>
+    <string name="editor_crop">Crop</string>
+    <string name="editor_add_text">Add Text</string>
+    <string name="type_blur">Blur</string>
+    <string name="type_mosaic">Mosaic</string>
+    <string name="type_stylus">Stylus</string>
+    <string name="type_highlighter">Highlighter</string>
+    <string name="type_marker">Marker</string>
+    <string name="type_text">Text</string>
+    <string name="type_erase">Eraser</string>
+    <string name="type_pan">Pan</string>
+
+    <!-- OpenThinking Space additions -->
+    <string name="editor_markup">Markup</string>
+    <string name="editor_redo">Redo</string>
+    <string name="editor_close">Close</string>
+    <string name="editor_save">Save</string>
+    <string name="editor_apply_crop">Apply crop</string>
+    <string name="editor_load_failed">Could not open screenshot</string>
+    <string name="editor_saved">Saved</string>
+    <string name="editor_save_failed">Save failed</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application>
+        <!--
+            Launched by the assistant session via VoiceInteractionSession.startAssistantActivity()
+            (a plain startActivity() from a session is easily blocked as a background launch).
+            Not exported: only this app starts it.
+        -->
+        <activity
+            android:name="com.openthinking.blankassistant.editor.EditorActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
