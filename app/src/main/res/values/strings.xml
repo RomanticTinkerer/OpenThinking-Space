@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OpenThinking Space</string>
+
+    <string name="action_edit">Edit</string>
+    <string name="action_record">Record</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_rerecord">Re-record</string>
+    <string name="action_reset">Reset</string>
+    <string name="action_discard">Discard</string>
+    <string name="action_save">Save</string>
+
+    <string name="status_recording">Recording  %1$s</string>
+    <string name="status_note_attached">Voice note attached  %1$s</string>
+
+    <string name="msg_screenshot_unavailable">Couldn\u2019t capture this screen.\nTurn on \u201cUse screenshot\u201d for OpenThinking Space in the Digital assistant app settings. Secure screens (banking, etc.) can\u2019t be captured.</string>
+    <string name="msg_saved">Saved to OpenThinking Space Screenshots</string>
+    <string name="msg_saved_with_note">Saved with voice note</string>
+    <string name="msg_save_failed">Couldn\u2019t save the screenshot</string>
+    <string name="msg_record_failed">Recording failed</string>
+    <string name="msg_need_mic">Allow microphone access, then invoke the assistant again</string>
+    <string name="msg_no_editor">Couldn\u2019t open the editor. Screenshot saved to OpenThinking Space Screenshots</string>
+    <string name="notif_channel_recording">Voice note recording</string>
+    <string name="notif_recording">Recording voice note</string>
+    <string name="notif_channel_reminders">Reminders</string>
+    <string name="notif_reminder">Reminder</string>
+    <string name="notif_reminder_body">You asked to be reminded about this screenshot</string>
+</resources>
