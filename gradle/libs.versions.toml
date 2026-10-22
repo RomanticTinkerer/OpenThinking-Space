@@ -1,0 +1,26 @@
+# Versions below match ReFra @ 43facd9 (the vendored editor code was written/tested against them).
+# Alias names are kept identical to ReFra's catalog so the vendored :cropper / :gesture build files work unchanged.
+[versions]
+agp = "9.3.2"
+kotlin = "2.4.10"
+composealpha = "1.12.0"
+material3 = "1.5.0-alpha26"
+activity-compose = "1.13.0"
+core-ktx = "1.19.0"
+coroutines = "1.11.0"
+
+[libraries]
+compose-runtime = { group = "androidx.compose.runtime", name = "runtime", version.ref = "composealpha" }
+compose-foundation = { group = "androidx.compose.foundation", name = "foundation", version.ref = "composealpha" }
+compose-ui = { group = "androidx.compose.ui", name = "ui", version.ref = "composealpha" }
+compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview", version.ref = "composealpha" }
+compose-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "material3" }
+compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended", version = "1.7.8" }
+compose-activity = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+androidLibrary = { id = "com.android.library", version.ref = "agp" }
+kotlin-compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
